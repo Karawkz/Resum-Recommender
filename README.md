@@ -9,7 +9,9 @@ The goal of this project is to create the best resumé matcher - identify what r
 
 
 ## Results
-**Update Jan 2019**. Focus on data-related roles - this includes data analytics, data science and data engineering.
+**Update Jan 2019**. Data-related roles: match resumés according to whether they are most suited to data analytics, data science or data engineering roles.
+Check out my [Which-Data-Role Flask App](https://whichdatarole.herokuapp.com/)!
 
 ## WIP
-NER - identify resume skills and 
++ Expand to include other roles.
++ NER - identify items in a resumé and see if they make sense.

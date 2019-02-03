@@ -3,7 +3,7 @@
 ## Overview and Goals
 The goal of this project is to create the best resumé matcher - identify what roles your resumé is most suited for.
 
-*Project Value* It can help advise job-seekers on potential career paths, what skills they currenty have and what education, skills or experience they need.
+*Project Value*. It can help advise job-seekers on potential career paths, what skills they currenty have and what education, skills or experience they need.
 
 ## Project Design
 This problem can be solved with supervised learning - a model can be trained with dependent variables (y) identified by current job titles (e.g. data analyst, data scientist or data engineer) on resumés. This would therefore only apply to resumés of job-seekers with work experience. 
@@ -15,10 +15,22 @@ The independent variables (X) will be identified by:
 Further improvement to this can be made with supporting rules-based code.
 
 ## Tools
-
++ SKLearn / Pandas, of course.
++ Google Gensim's W2V model.
++ FuzzyWuzzy to identify similar terms in text - classify job titles (e.g. 'data scientist' or 'data science' are both data scientist resumés).
++ MongoDB to store resumés and parsed data.
++ AWS to run grid search to identify the best models.
++ Flask WebApp
 
 ## Data
-Scraped and parsed resumés from Indeed.com
+Scraped and parsed resumés from Indeed.com.
+Parsed fields include: 
++ Hyperlink
++ Job Title
++ Education: school name, course, certifications, level of education (Bachelors, Masters, PhDs, how many?)
++ Work Experience: number of years, text (for vectors)
++ Skills: text (for vectors)
++ Additional Information: text (for vectors)
 
 ## Algorithms
 

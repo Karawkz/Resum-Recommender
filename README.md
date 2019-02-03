@@ -15,7 +15,7 @@ The independent variables (X) will be identified by:
 Further improvement to this can be made with supporting rules-based code.
 
 ## Tools
-+ SKLearn / Pandas, of course.
++ SKLearn and Pandas, of course.
 + Google Gensim's W2V model.
 + FuzzyWuzzy to identify similar terms in text - classify job titles (e.g. 'data scientist' or 'data science' are both data scientist resumés).
 + MongoDB to store resumés and parsed data.

@@ -31,6 +31,9 @@ Parsed fields include:
 + Skills: text (for vectors)
 + Additional Information: text (for vectors)
 
+Example resumé parsed according to these fields:
+![my resumé](https://github.com/Karawkz/which_role/blob/master/Kara_Bethany_Liu_resum%C3%A9.png "my resumé")
+
 ## Algorithms / Modeling
 **Vectorization**. I trained my own W2V model and vectorized the relevant texts. I decided against using Google Gensim's trained W2V model because I figured that many of the technical skills would not appear in there. However, I'd like to test this theory out some time in the future. I also used a TFIDF vectorizer.
 

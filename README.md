@@ -3,7 +3,7 @@
 ## Overview and Goals
 The goal of this project is to create the best resumé matcher - identify what roles your resumé is most suited for.
 
-*Project Value*. It can help advise job-seekers on potential career paths, what skills they currenty have and what education, skills or experience they need.
+**Project Value**. Help advise job-seekers on potential career paths, what skills they currenty have and what education, skills or experience they need.
 
 ## Project Design
 This problem can be solved with supervised learning - a model can be trained with dependent variables (y) identified by current job titles (e.g. data analyst, data scientist or data engineer) on resumés. Training the model would therefore only rely on resumés of job-seekers with work experience. 

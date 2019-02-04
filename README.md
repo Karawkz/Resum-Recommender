@@ -43,7 +43,7 @@ Parsed fields include:
 I tried a variety of vectorization methods and models using GridSearchCV to find the best model.
 
 ## Results
-See slide summary: [Which Data Role](https://github.com/Karawkz/which_role/blob/master/which%20data%20role.pdf). The final model, which is my best model, did alright with ~85% accuracy on the test set and ~95% accuracy on the train set. This likely signals overfitting because the results were pretty similar across all models / vectors. I basically need more data and therefore need to scrape more resumés for this project in order to improve the results.
+See slides summary: [Which Data Role](https://github.com/Karawkz/which_role/blob/master/which%20data%20role.pdf). The final model, which is my best model, did alright with ~85% accuracy on the test set and ~95% accuracy on the train set. This likely signals overfitting because the results were pretty similar across all models / vectors. I basically need more data and therefore need to scrape more resumés for this project in order to improve the results.
 
 Data-related roles: match resumés according to whether they are most suited to data analytics, data science or data engineering roles.
 Check it out - [Which-Data-Role Flask App](https://whichdatarole.herokuapp.com/)!

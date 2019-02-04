@@ -40,6 +40,7 @@ Example resumé parsed according to these fields:
 **Dimension Reduction**. I also used 'truncated SVD' within Latent Semantic Analysis to get a smaller set of vectors, specifically I tried out dimensions of between 50 to 300 with my model.
 
 **Oversampling**. The number resumé types were imbalanced - 3/5 of resumés were data analyst ones, 1/5 were data scientist ones and the remaining 1/5 were data engineering ones. I used ADASYN to oversample the data to balance these classes.
+
 ![imbalanced](https://github.com/Karawkz/which_role/blob/master/imbalance.png "too many analysts")
 
 **Models**. I tried out a variety of classification models - Random Forest, Support Vector Classifier, Logistic Classifier, Multinomial Naïve Bayes, Gradient Boosting Classifier.

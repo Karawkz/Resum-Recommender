@@ -37,7 +37,7 @@ Example resumé parsed according to these fields:
 ## Algorithms / Modeling
 **Vectorization**. I trained my own W2V model and vectorized the relevant texts. I decided against using Google Gensim's trained W2V model because I figured that many of the technical skills would not appear in there. However, I'd like to test this theory out some time in the future. I also used a TFIDF vectorizer.
 
-**Dimension Reduction**. I also used 'truncated SVD' within Latent Semantic Analysis to get a smaller set of vectors, specifically I tried out dimensions of between 50 to 300 with my model.
+**Dimension Reduction**. I used 'truncated SVD' within Latent Semantic Analysis to get a smaller set of vectors, specifically I tried out dimensions of between 50 to 300 with my model.
 
 **Oversampling**. The number resumé types were imbalanced - 3/5 of resumés were data analyst ones, 1/5 were data scientist ones and the remaining 1/5 were data engineering ones. I used ADASYN to oversample the data to balance these classes.
 
